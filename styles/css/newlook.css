@@ -1,0 +1,119 @@
+﻿#siteFooter {
+    background: transparent url(../images/sitefooter_background.gif) repeat-x 0px 0px;
+    color:#848484;
+    font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+    height: 19px;
+	left: 0; /* for IE7 */
+    line-height:19px;
+    text-align:center; 
+    position:fixed;
+    bottom: 0;
+    z-index:2;
+    width: 100%;
+}
+
+
+
+#empire #siteFooter .content,
+#siteFooter .content { 
+    margin: 0px auto;
+    padding-top:0px;
+    width:720px;
+}
+.fleft {    float:left;}
+.fright {   float:right;}
+
+#siteFooter .fleft { width: 340px;}
+#siteFooter .fright { width: 380px;}
+
+a { -moz-outline-width: 0;}
+
+a:link,
+a:visited,
+a:hover,
+a:active { color:#848484;}
+
+#siteFooter a,
+#siteFooter a:link { 
+    color:#848484;
+    margin:0px 12px;
+    text-decoration:none;
+}
+
+#siteFooter a:hover { 
+    color:#9c0;
+    text-decoration:none;
+}
+
+#siteFooter a.homeLink { margin-left:0px;}
+.textLeft			{ text-align: left; }
+.textRight			{ text-align: right; }
+
+
+.contentBoxBody {
+	position: relative;
+	z-index: 1;
+}
+.contentBoxBody {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -19px; /* the bottom margin is the negative value of the footer's height */
+    position: relative;
+}
+
+#boxBG {background: transparent url(../images/boxBG_backgroud_transparent.gif) repeat-x 0px 0px;}
+
+#box {
+    width:1000px;
+    margin: 0px auto;
+    text-align:left;
+    position: relative;
+}
+#bar {
+    font-size:11px;
+    width:100%;
+    margin-top:2px;
+    text-align:center;
+}
+
+#bar a,
+#bar a:link,
+#bar a:visited,
+#bar a:active {
+    color:#6f9fc8;
+    display: inline-block;
+    text-decoration:none;
+}
+
+#bar a:hover {
+    text-decoration:underline;
+    color:#9c0;
+}
+
+#bar ul {
+    margin: 0 auto;
+}
+
+#bar ul li {
+    display:inline;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0 15px 0 0;
+}
+
+#bar ul li#playerName {
+    float: left;
+    margin-right: 1px;
+}
+#info {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+#info {
+    background-repeat: no-repeat;
+    height: 142px;
+    margin: 0px auto;
+    position:relative;
+}
